@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    body{
+        background:#64403E;
+    }
+   article {
+    width: 65%;
+   height: 50%;
+   background-color: #B2BCAA;
+   border: 5px solid #6C6061;
+   position: relative;
+   top: 125px;
+   font-family:'playfair display' 'lato';
+   left: 425px;
+   border-radius: 205px;
+   padding: 10px;
+   box-sizing: border-box;
+   margin-bottom: 200px;
+   text-align: center;
+   }
+   .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 5px solid #6C6061;
+    perspective: 1000px; 
+    margin-bottom: 65px;
+    margin-left:50px;
+    margin-top: 15px;
+    left: 50px;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+}
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+.flip-card-back {
+    background-color: #B2BCAA;
+    color: black;
+    transform: rotateY(180deg);
+}
+.flip-card1 {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 0px solid #f1f1f1;
+    perspective: 1000px; 
+}
+.flip-card-inner1 {
+    position: absolute;
+    top: -800px;
+    right: -425px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card1:hover .flip-card-inner1 {
+    transform: rotateY(180deg);
+}
+.flip-card-front1, .flip-card-back1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+}
+.flip-card-front1 {
+    background-color: #bbb;
+    color: black;
+}
+.flip-card-back1 {
+    background-color: #0259bb;
+    color: white;
+    transform: rotateY(180deg);
+}
+aside {
+  position: absolute;
+  top: 800px;
+  font-family:'playfair display' 'lato';
+  left: 20px;
+  width: 1175px;
+  height: 345px;
+  background-color: #B2BCAA;
+  border: 5px solid #6C6061;
+  margin-top: 15px;
+  padding: 5px;
+}
+footer{
+    position: absolute;
+    bottom: -850px;
+    right: 0px;
+    width: 100%;
+    font-family:'playfair display' 'lato';
+    text-align: center;
+    background-color: #B2BCAA;
+    color: black;
+}
+</style>
+<nav class="holygrail-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="Fences.html">Fences</a>
+    <a href="Gates.html">Gates</a>
+</nav>
+<body>
+    
+    <div class="wrapper">
+        <header>
+            <img src="LOGO.png">
+            <h1>About Us Page</h1>
+        </header>
+        <nav></nav>
+        <section>
+            <h1>Want to know some more about us, this is the spot.</h1>
+        </section>
+        <div class="contents">
+        <div class="articles">
+        <article>
+            <h1>What we offer</h1>
+            <p>We Build Gates and Fences to order what ever it may be, iron, wood, or steel our trained professionals can build what you requested</p>
+            <p>What you can expect from us it is quality, customer service, and time frame</p>
+            </article>
+            <article>
+            <h1>We are located in Flordia in the Miami</h1>
+        <p>Disclaimer this website is for a final project and the content is not real.</p>
+        </article>
+        </div>
+        <aside>
+            <img src="LOGO.png">
+            <h2>Contact Information</h2>
+            <h3>Address</h3>
+            <h4>Phone Number</h4>
+            <h5>Email</h5>
+            </aside>
+        </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+            <img src="Welding About Us Page.jpg"style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+            <h1>We have in house pro's</h1>
+            <p>We have our own welders, wood workers, and steel workers to craft anythin from a pre-made patter or design to a custom order.</p>
+            <p></p> So we can guarantee quality and efficiently of our work to any customer</p>
+            </div>
+            </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                <div class="flip-card-front">
+                <img src="Goolge maps About Us page.png "style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                <h1>Disclaimer!!!</h1>
+                <p>Once again this website is for a final project and the content is not real.</p>
+                <p>And this map was taken off google maps for a reference on where the location of the business would be</p>
+                </div>
+                </div>
+                </div>
+        <footer class="holygrail-menu">
+            © 2000 - Company, Inc. All rights reserved. Address Address
+            <p>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="Fences.html">Fences</a>
+            <a href="Gates.html">Gates</a>
+            </p>
+        </footer>
+    </body>
+    </html>
